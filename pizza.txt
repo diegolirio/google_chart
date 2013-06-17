@@ -1,0 +1,15 @@
+Desc       P
+AP    =    7
+AR    =    5
+AV    =    4
+AE    =    3
+AS    =    1
+ER    =    0
+
+Desc     P
+AP   =   3
+AR   =   2
+AV   =   6
+AE   =   2
+AS   =   3
+ER   =   2
