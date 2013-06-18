@@ -20,12 +20,12 @@
         data.addColumn('string', 'Critérios de Acertos');
         data.addColumn('number', 'Quantidade');
         data.addRows([
-          ['AP', 3],
-          ['AR', 2],
-          ['AV', 6],
-          ['AE', 2],
-          ['AS', 3],
-		  ['ER', 2]
+          ['AP', 3], // Acertou Placar
+          ['AR', 2], // Acertou Vencedor e Resultado de Gols de um time
+          ['AV', 6], // Acertou Vencedor
+          ['AE', 2], // Acertou Empate com placar diferente
+          ['AS', 3], // Acertou somente o Resultado de Gols de um time.
+		  ['ER', 2]  // Errou Tudo
         ]);
 
         // Set chart options
@@ -43,5 +43,11 @@
   <body>
     <!--Div that will hold the pie chart-->
     <div id="chart_div"></div>
+	<p>AP - Verde</p>
+	<p>AR - Azul</p>
+	<p>AV - Roxo</p>
+	<p>AE - Laranja</p>
+	<p>AS - Amarelo</p>
+	<p>ER - Vermelho</p>
   </body>
 </html>

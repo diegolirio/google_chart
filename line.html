@@ -131,7 +131,8 @@
         ]);
 		*/
         var options = {
-          title: 'Histótico de Colocação'
+          title: 'Histótico de Colocação',
+		  vAxis: {maxValue: 10, direction: -1} // Inverte a Coluna em ordem crescente...
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('chart_div'));		
